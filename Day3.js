@@ -2,8 +2,6 @@ const fs = require('fs');
 
 var treeMapFile = fs.readFileSync('Day 3.txt', 'utf8')
 
-
-
 function extraTreeMap(treeMap) { 
 
     var map = treeMap.split('\r\n')
